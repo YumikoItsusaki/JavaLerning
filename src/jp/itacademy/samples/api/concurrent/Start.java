@@ -8,8 +8,8 @@ public class Start {
 	public void hold(String userName) {
 		this.userName = userName;
 		this.userSign = userName;
-		checkSign()
-		System.out.println(thos.userName + "さんが座っています");
+		checkSign();
+		System.out.println(this.userName + "さんが座っています");
 		
 		private void checkSign() {
 			if (userName.charAt(0) != userSign.charAt(0)) {
@@ -17,6 +17,11 @@ public class Start {
 				
 			}
 		}
+		
+	}
+
+	private void checkSign() {
+		// TODO 自動生成されたメソッド・スタブ
 		
 	}
 	
