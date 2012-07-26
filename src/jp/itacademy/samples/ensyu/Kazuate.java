@@ -6,8 +6,10 @@ import java.util.Scanner;
 public class Kazuate {
 	public static void main(String[] args) {
 		Random rnd = new Random();
+		//int count;
 
 		int ran = rnd.nextInt(100) + 1;
+		//count=0;ran=Random;count++
 		while (true) {
 			System.out.println("1‚©‚ç100‚Ü‚Å‚Ì”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
 
@@ -16,9 +18,9 @@ public class Kazuate {
 
 			if (nu == ran) {
 				System.out.println("³‰ğ‚Å‚·I");
+				System.out.println("@+ cut + ‰ñ–Ú‚Å³‰ğ‚Å‚µ‚½B");
 				break;
 			}
-		}
 		if (nu > ran) {
 			System.out.println("‚à‚Á‚Æ¬‚³‚¢‚Å‚·");
 		}
@@ -26,5 +28,5 @@ public class Kazuate {
 			System.out.println("‚à‚Á‚Æ‘å‚«‚¢‚Å‚·");
 		}
 	}
-
+	}
 }
